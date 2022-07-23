@@ -2,6 +2,8 @@
 
 - 🌱 I usually use Java, Typescript
 - 😄 Love middleware development. Keep coding...
+- 👯 I’m interning at SenseTime as a software development intern from 2021.5-2021.8
+- 🔭 I’m currently participating in the contribution of Dubbo and Seata
 
 ![conghuhu's github stats](https://github-readme-stats.vercel.app/api?username=conghuhu&theme=tokyonight&count_private=true&show_icons=true) 
 
