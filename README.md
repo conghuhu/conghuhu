@@ -1,7 +1,14 @@
 ### Hi there 👋
 
-<!--
-**conghuhu/conghuhu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🌱 I usually use Java, Typescript
+- 😄 Love middleware development. Keep coding...
+
+![conghuhu's github stats](https://github-readme-stats.vercel.app/api?username=conghuhu&theme=tokyonight&count_private=true&show_icons=true) 
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=conghuhu&theme=dark&layout=compact)
+
+<!-- 
+**JonnyS1226/JonnyS1226** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -13,4 +20,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+ -->
