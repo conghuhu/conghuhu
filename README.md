@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🌱 I usually use Java, Typescript
+- 🌱 I usually use Java, Typescript, Golang and Lua
 - 😄 Love middleware development. Keep coding...
 - 👯 I’m interning at SenseTime as a software development intern from 2021.5-2021.8
 - 🔭 I’m currently participating in the contribution of Dubbo, Seata and Casbin
