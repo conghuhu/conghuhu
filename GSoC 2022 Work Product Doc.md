@@ -22,8 +22,12 @@ The overall goal is to modify the Dubbo SDK to work in mesh mode and streamline 
 | [#10498](https://github.com/apache/dubbo/pull/10498)  | feat: add unloadClusterRelated in ReferenceConfig which can unload the useless cluster related functions |
 | [#10543](https://github.com/apache/dubbo/pull/10543)  | feat: replace kube-apiserver watch with informer |
 
-### Demo
+### Product Demo
 Write [samples of Dubbo mesh](https://github.com/apache/dubbo-samples/tree/master/dubbo-samples-mesh-k8s) to guide users to quickly learn Dubbo mesh mode and push it to [dubbo-samples](https://github.com/apache/dubbo-samples).
+
+The final deployment of Dubbo mesh is as follows:
+
+![image](https://user-images.githubusercontent.com/56248584/188522535-43fb1f2f-bc02-4c6d-b0bb-a7710c8863f3.png)
 
 #### Related PR
 |  PR   | Description  |
@@ -33,9 +37,17 @@ Write [samples of Dubbo mesh](https://github.com/apache/dubbo-samples/tree/maste
 | [#484](https://github.com/apache/dubbo-samples/pull/484) | feat: add mesh mode in dubbo-samples-mesh-k8s |
 | [#498](https://github.com/apache/dubbo-samples/pull/498) | feat: add server stream and bi stream demos in mesh example && recover readinessProbe |
 
-### Document
+### Product Document
 - [docs: add relevant configuration description of Service Mesh Sidecar](https://github.com/apache/dubbo-website/pull/1425)
 - [dubbo-samples-mesh-k8s doc](https://github.com/apache/dubbo-samples/blob/master/dubbo-samples-mesh-k8s/README.md)
 
 ### Technology Sharing
 - [Dubbo Mesh deployment](https://www.bilibili.com/video/BV1HV4y1x7A9?spm_id_from=333.999.0.0&vd_source=6668b7f3025d083b8b0b10851dd834a8)
+
+## Next
+
+I will continue to participate in Dubbo mesh related contributions. According to [the next plan of Dubbo mesh](https://mp.weixin.qq.com/s/GF8i1fzY1I4bDSJDZh6aJQ), I will continue to participate in the development of Dubbo control plane and data plane.
+
+Thank you for being a part of this fantastic summer
+
+—— Guoqing Cong
