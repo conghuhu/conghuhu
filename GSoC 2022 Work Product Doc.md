@@ -2,7 +2,12 @@
 
 ## Project Goal
 
-The overall goal is to modify the Dubbo SDK to work in mesh mode and streamline unnecessary processes. Detail is [proposals](https://github.com/apache/dubbo-awesome/blob/master/proposals/D3.1-thinsdk-sidecar-mesh.md#background).
+The overall goal is to modify the Dubbo SDK to work in mesh mode and streamline unnecessary processes. 
+At present, Dubbo and Service Mesh duplicate many common traffic management functions, such as load balancing, current limiting, and grayscale.
+
+In Dubbo Mesh mode, Dubbo should retain the most basic RPC functions, and integrate these traffic governance capabilities into Sidecar.
+
+Detail proposals is [here](https://github.com/apache/dubbo-awesome/blob/master/proposals/D3.1-thinsdk-sidecar-mesh.md#background).
 
 ## My Contributions
 
@@ -10,11 +15,12 @@ The overall goal is to modify the Dubbo SDK to work in mesh mode and streamline 
 2. Add the the unloadClusterRelated in ReferenceConfig to configure whether to unload the useless cluster related functions, such as load balancing and retries, to strip these traffic governance capabilities from Dubbo and sink them into sidecar.
 3. For health checks, Istio comes with probes that align the life cycle of Dubbo and even the entire application with the life cycle of Pod. An active health check provided by Envoy removes unhealthy instances immediately and then joins the service route when the instance is healthy again. However, the readinessProbe implementation provided by Dubbo does not apply to mesh. If the registry is not configured in mesh mode, Dubbo's readinessProbe returns false, which needs to be modified here. 
 4. Write samples of Dubbo mesh to guide users to quickly learn Dubbo mesh mode.
-5. As the keynote speaker of Dubbo micro service technology live broadcast service mesh practice: teach you how to deploy Dubbo to istio, he explained the deployment and principle of Dubbo 3 mesh to Dubbo developers.
+5. As the keynote speaker of Dubbo micro service technology live broadcast service mesh practice: [teach you how to deploy Dubbo to Istio](https://www.bilibili.com/video/BV1HV4y1x7A9?spm_id_from=333.999.0.0&vd_source=6668b7f3025d083b8b0b10851dd834a8), I explained the deployment and principle of Dubbo 3 mesh to Dubbo developers.
 
 ## My Works Links
 
-### Pull Request
+### Main Repository Pull Request
+
 |  PR   | Description  |
 |  ----  | ----  |
 | [#10329](https://github.com/apache/dubbo/pull/10329)  | perf: remove duplicate code snippets in AbstractInterfaceConfig |
@@ -48,6 +54,6 @@ The final deployment of Dubbo mesh is as follows:
 
 I will continue to participate in Dubbo mesh related contributions. According to [the next plan of Dubbo mesh](https://mp.weixin.qq.com/s/GF8i1fzY1I4bDSJDZh6aJQ), I will continue to participate in the development of Dubbo control plane and data plane.
 
-Thank you for being a part of this fantastic summer
+Thank you for being a part of this fantastic summer.
 
 —— Guoqing Cong
