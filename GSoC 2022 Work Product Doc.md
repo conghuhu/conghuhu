@@ -15,7 +15,8 @@ Detail proposals is [here](https://github.com/apache/dubbo-awesome/blob/master/p
 2. Add the the unloadClusterRelated in ReferenceConfig to configure whether to unload the useless cluster related functions, such as load balancing and retries, to strip these traffic governance capabilities from Dubbo and sink them into sidecar.
 3. For health checks, Istio comes with probes that align the life cycle of Dubbo and even the entire application with the life cycle of Pod. An active health check provided by Envoy removes unhealthy instances immediately and then joins the service route when the instance is healthy again. However, the readinessProbe implementation provided by Dubbo does not apply to mesh. If the registry is not configured in mesh mode, Dubbo's readinessProbe returns false, which needs to be modified here. 
 4. Write samples of Dubbo mesh to guide users to quickly learn Dubbo mesh mode.
-5. As the keynote speaker of Dubbo micro service technology live broadcast service mesh practice: [teach you how to deploy Dubbo to Istio](https://www.bilibili.com/video/BV1HV4y1x7A9?spm_id_from=333.999.0.0&vd_source=6668b7f3025d083b8b0b10851dd834a8), I explained the deployment and principle of Dubbo 3 mesh to Dubbo developers.
+5. Replace kube-apiserver watch with informer. The current implementation of syncing endpoints, pods, services information is to use watch api. This is not as good as using the informer's list-watch.
+6. As the keynote speaker of Dubbo micro service technology live broadcast service mesh practice: [teach you how to deploy Dubbo to Istio](https://www.bilibili.com/video/BV1HV4y1x7A9?spm_id_from=333.999.0.0&vd_source=6668b7f3025d083b8b0b10851dd834a8), I explained the deployment and principle of Dubbo 3 mesh to Dubbo developers.
 
 ## My Works Links
 
