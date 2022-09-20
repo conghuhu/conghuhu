@@ -1,5 +1,8 @@
 # Google Summer of Code 2022: Dubbo Thin SDK
 
+![image](https://user-images.githubusercontent.com/56248584/191144309-502ec181-a316-4ed1-a0a9-20be277b6dab.png)
+
+
 ## Project Goal
 
 The overall goal is to modify the Dubbo SDK to work in mesh mode and streamline unnecessary processes. 
