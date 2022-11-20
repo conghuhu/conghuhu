@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-- 🌱 I usually use Java, Typescript, Golang and Lua
-- 😄 Love middleware development. Keep coding...
+- 🌱 I usually use Java, Golang, Typescript and Lua
+- 😄 Love middleware and cloud native development. Keep coding...
 - 👯 I’m interning at SenseTime as a software development intern from 2021.5-2021.8
-- 🔭 I’m currently participating in the contribution of Dubbo, Seata and Casbin
+- 🔭 I’m currently participating in the contribution of Dubbo, Seata.
 
 ![conghuhu's github stats](https://github-readme-stats.vercel.app/api?username=conghuhu&theme=tokyonight&count_private=true&show_icons=true) 
 
