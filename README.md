@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-- 🌱 I usually use Java, Golang, Typescript and Lua
 - 🔭 I’m Apache Commiter(Dubbo), keep contribution.
+- 🌱 I usually use Java, Golang, Typescript.
 - 😄 Love middleware and cloud native development. Keep coding...
-- 👯 I’m interning at SenseTime as a software development intern from 2021.5-2021.8
+- 👯 I worked as a back-end intern in Alibaba Cloud, RisingWave Labs and SenseTime.
 - 🔭 I’m currently participating in the contribution of Dubbo, Seata.
 - ⚡ [My 2022 GSOC Summary](https://github.com/conghuhu/conghuhu/blob/main/GSoC%202022%20Work%20Product%20Doc.md)
 
