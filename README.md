@@ -7,9 +7,9 @@
 - 🔭 I’m currently participating in the contribution of Dubbo, Seata.
 - ⚡ [My 2022 GSOC Summary](https://github.com/conghuhu/conghuhu/blob/main/GSoC%202022%20Work%20Product%20Doc.md)
 
-![conghuhu's github stats](https://github-readme-stats.vercel.app/api?username=conghuhu&theme=tokyonight&count_private=true&show_icons=true) 
+![conghuhu's github stats](https://acedev003-readme-stats.vercel.app/api?username=conghuhu&theme=tokyonight&count_private=true&show_icons=true) 
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=conghuhu&theme=dark&layout=compact)
+![Most Used Languages](https://acedev003-readme-stats.vercel.app/api/top-langs/?username=conghuhu&theme=dark&layout=compact)
 
 <!-- 
 **JonnyS1226/JonnyS1226** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
